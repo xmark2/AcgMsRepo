@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AcgMsDataFactoryMM"
+		},
+		"LinkService_gen2_acgmsdatalake_accountKey": {
+			"value": ""
+		},
+		"LinkService_gen2_acgmsdatalake_properties_typeProperties_url": {
+			"value": "https://acgmsdatalake.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
